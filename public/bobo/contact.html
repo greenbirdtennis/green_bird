@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">	
+	
+	<head>		
+		
+		<meta charset="utf-8">
+		<title>Contact - Green Bird Tennis</title>
+		
+		<link rel="stylesheet" href="styles/style2.css" />
+				
+		<!--[if IE 6]>
+            <link rel="stylesheet" href="styles/ie6.css" />
+        <![endif]--> 
+        <!--[if IE 7]>
+            <link rel="stylesheet" href="styles/ie7.css" />
+        <![endif]-->
+		
+	</head>
+	
+	<body>	
+		
+		<div id="wrap">
+        	
+        	<div id="header">
+            	
+        		<a href="index.html" title="Green Bird Tennis"><h1>Green Bird Tennis</h1></a>       	
+        		<h2>Contact</h2>           	
+
+            	<div id="nav">
+            	
+                	<ul id="nav-pages"> 
+                	                	     	
+						<li><a href="index.html">Home</a><span>/</span></li>
+						<li><a href="junior.html">Juniors</a><span>/</span></li>
+						<li><a href="adults.html">Adults</a><span>/</span></li>
+						<li><a href="coach.html">Meet the Coach</a><span>/</span></li>
+						<li><a href="contact.html" class="current">Contact</a></li>	
+										
+            		</ul><!--end nav-pages-->
+            		
+            	</div><!--end nav-->
+
+            </div><!--end header-->
+            
+            <div id="main">
+	            
+	            <div id="contact-page">
+				
+					<!-- The Contact Form -->
+					<h2 class="title">Contact</h2>    		
+		    		<p>Hello!<p>Thank you for your time here at Green Bird Tennis. Please fill out the form below with a quick introduction to yourself. I am excited to meet you!</p><P>Best wishes,</p><p>Samantha Lam</P></P></p>
+					<p class='hide' id='response'></p>
+					
+					<!-- TO CONFIGURE THE CONTACT FORM EDIT LINE 33 IN "scripts/contact-process.php" FILE AND REPLACE "your@email.com" WITH YOUR OWN EMAIL ADDRESS -->
+					<form id='contact-form' method='post' action='scripts/contact-process.php'>
+						<fieldset>					
+							<input id='form_name' type='text' name='name' value='Name' onfocus="if(this.value=='Name'){this.value=''};" onblur="if(this.value==''){this.value='Name'};" />					
+							<input id='form_email' type='text' name='email' value="Email" onfocus="if(this.value=='Email'){this.value=''};" onblur="if(this.value==''){this.value='Email'};" />
+							<input id='form_subject' type='text' name='subject' value="Subject" onfocus="if(this.value=='Subject'){this.value=''};" onblur="if(this.value==''){this.value='Subject'};" />			
+							<textarea id='form_message' rows='10' cols='40' name='message'></textarea>				
+							<input id='form_submit' class="submit" type='submit' name='submit' value='' />			
+							<div class='hide'>
+								<label>Do not fill out this field</label>
+								<input name='spam_check' type='text' value='' />
+							</div>
+						</fieldset>
+					</form>
+				
+				</div><!--end contact-page-->
+				
+				<div id="sidebar-contact">			    
+				    	
+					<h3>Get In Touch</h3>
+					<h4>Email</h4>
+					<p>Sam@greenbirdtennis.com</p>
+					<h4>Phone</h4>
+					<p>(415) 409-8638</p>
+							    
+				</div><!--end sidebar-contact-->
+			
+			</div><!--end main-->
+                		
+    		<div id="footer">
+				
+				<p class="copyright">Copyright &copy; 2012 &middot; Green Bird Tennis &middot; All Rights Reserved</p>
+				
+			</div><!--end footer-->
+            
+    	</div><!--end wrap-->
+    	
+    	<div class="cache-images">
+	        <img src="images/submit-button-blue-hover.png" width="0" height="0" alt="" />
+	    </div><!--end cache-images-->
+	    		
+	</body>	
+	
+</html>
