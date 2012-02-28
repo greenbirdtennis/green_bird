@@ -41,7 +41,7 @@ em { font-style: italic; }
 /*--------------*/
 /* -- Header -- */
 /*--------------*/
-#header { padding: 70px 0 40px 0; overflow: hidden; }
+#header { padding: 70px 0 8px 0; overflow: hidden; }
 #header h1 { font-size: 45px; color: #337733; letter-spacing: -3px; font-weight: bold; margin: 20px 0 0 0; padding: 0; }
 #header h2 { color: #aaa; margin: 15px 0 0 0; padding: 0; font-size: 30px; letter-spacing: -1px; }
 #header .line { margin: 30px 0 0 0; }
