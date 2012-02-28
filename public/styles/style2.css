@@ -145,5 +145,5 @@ em { font-style: italic; }
 /*--------------*/
 /* -- Footer -- */
 /*--------------*/
-#footer { clear: both; border-top: 5px #eee solid; margin: 80px 0 40px 0; color: #bbb; text-align: center; }
+#footer { clear: both; border-top: 5px #eee solid; margin: 20px 0 40px 0; color: #bbb; text-align: center; }
 #footer p { font-size: 18px; margin: 10px 0 0 0; }
