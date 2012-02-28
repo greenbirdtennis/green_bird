@@ -24,6 +24,7 @@ h4 { font-size: 18px; color: #337733; margin: 25px 0 10px 0; }
 h44 { font-size: 18px; color: #aaa; margin: 25px 0 10px 0; }
 h5 { font-size: 16px; margin: 20px 0 5px 0; }
 h6 { font-size: 14px; margin: 10px 0 0 0; }
+h7 {background-color:#ffffff; }
 a:link, a:visited { color: #337733; text-decoration: none; }
 a:hover, a:active { color: #0072bc; }
 p { font-size: 14px; margin-bottom: 15px; }
