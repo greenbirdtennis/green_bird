@@ -28,7 +28,7 @@ strong, b { font-weight: bold; }
 /* ------------ */
 /* -- Layout -- */
 /* ------------ */
-#content { float: left; background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff; width: 490px; margin: 0 0 0 30px; padding: 70px 50px 30px 50px; overflow: hidden; min-height: 946px; }
+#content { float: left; background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff; width: 490px; margin: 0 0 0 30px; padding: 100px 50px 30px 50px; overflow: hidden; min-height: 946px; }
 
 /* ------------- */
 /* -- Sidebar -- */
