@@ -49,7 +49,7 @@ strong, b { font-weight: bold; }
 #nav li { float: left; font-size: 12px; padding: 0 0 0 0; text-decoration: none; color: #555; }
 #nav span { padding: 0 10px; }
 #nav li a { color: #337733; }
-#nav li a:hover { color: #337733; }
+#nav li a:hover { color: #f34607; }
 #nav li.current a { color: #555; text-decoration: underline; }
 
 /* --------- */
