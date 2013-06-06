@@ -28,12 +28,12 @@ strong, b { font-weight: bold; }
 /* ------------ */
 /* -- Layout -- */
 /* ------------ */
-#content { float: left; background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff; width: 490px; margin: 0 0 0 30px; padding: 100px 50px 30px 50px; overflow: hidden; min-height: 946px; }
+#content { float: left; background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff; width: 490px; margin: 0 0 0 30px; padding: 100px 50px 30px 50px; overflow: hidden; min-height: 1400px; }
 
 /* ------------- */
 /* -- Sidebar -- */
 /* ------------- */
-#sidebar { float: left; width: 320px; background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff; padding: 70px 40px 0 40px; height: 100%; }
+#sidebar { float: left; width: 320px; background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff;  padding: 70px 40px 0 40px; height: 100%; overflow: hidden; min-height: 1460px; }
 #sidebar h1 { font-size: 32px; color: #555; margin: 0 0 8px 0; letter-spacing: -1px; }
 #sidebar h2 { font-size: 24px; color: #ccc; letter-spacing: -1px;  }
 #sidebar h3 { font-size: 18px; margin: 0 0 10px 0; }
