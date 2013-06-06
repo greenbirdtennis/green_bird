@@ -1,149 +1,99 @@
 
-
-/* Colors: Blue - #0072bc */
-
 @import "reset.css";
 
-/*-------------*/
-/* -- Tools -- */
-/*-------------*/
-.line { clear: both; height: 5px; background-color: #eee; }
-.post-line { clear: both; border-bottom: 1px solid #eee; margin: 40px 0; }
-.cache-images { visibility: hidden; }
-
-
-/*----------------------*/
+/* -------------------- */
 /* -- General Styles -- */
-/*----------------------*/
-#wrap { width: 960px; margin: 0 auto ; text-align: center; }
-body { background: url(../images/main-bg.jpg) repeat-x; background-color: #ffffff; color: #555555; line-height: 22px; font-family: Arial; font-size: 12px; text-align: center;  }
-h1 { font-size: 60px; margin: 35px 0 25px 0; }
-h2 { font-size: 22px; color: #337733; margin: 30px 0 15px 0; }
-h3 { font-size: 24px; margin: 30px 0 15px 0; }
-h4 { font-size: 18px; color: #337733; margin: 25px 0 10px 0; }
-h44 { font-size: 20px; color: #aaa; margin: 25px 0 10px 0; }
-h5 { font-size: 16px; margin: 10px 0 5px 0; }
-h6 { font-size: 14px; margin: 10px 0 0 0; }
-h7 {background-color:#ffffff; }
-a:link, a:visited { color: #337733; text-decoration: none; }
-a:hover, a:active { color: #0072bc; }
-p { font-size: 14px; margin-bottom: 15px; }
-.title { margin-top: 0; }
-em { font-style: none; }
-
-/*-------------------*/
-/* -- Main Layout -- */
-/*-------------------*/
-#main { clear: both; padding: 10px 0 0 0; }
-#content { float: left; width: 570px; padding: 0 100px 60px 2px; text-align: left; }
-#sidebar { float: left; width: 288px; text-align: left; }
-
-/*--------------*/
-/* -- Header -- */
-/*--------------*/
-#header { padding: 70px 0 8px 0; overflow: hidden; }
-#header h1 { font-size: 45px; color: #337733; letter-spacing: -3px; font-weight: bold; margin: 20px 0 0 0; padding: 0; }
-#header h2 { color: #aaa; margin: 15px 0 0 0; padding: 0; font-size: 30px; letter-spacing: -1px; }
-#header .line { margin: 30px 0 0 0; }
-.subtitle { margin: 0 0 14px 0; }
-
-/*-----------*/
-/* -- Nav -- */
-/*-----------*/
-#nav { float: left; width: 100%; overflow: hidden; position: relative; margin: 40px 0 0 0; border-top: 5px #eee solid; border-bottom: 5px #eee solid; padding: 12px 0 8px 0; }
-#nav ul { clear: left; float: left; margin: 0; padding: 0; position: relative; left: 50%; text-align: center; }
-#nav ul li { float: left; list-style: none; margin: 0; padding: 0; position: relative; right: 50%; }
-#nav ul li a {  margin: 0 0 0 1px; padding: 3px 0; font-size: 16px; color: #444; text-transform: uppercase; }
-#nav ul li a:hover { color: #0072bc; }
-#nav li span { padding: 0 20px; color: #444; font-size: 16px; }
-#nav li a.current{ color: #337733; }
-
-
-/*-------------*/
-/* -- Posts -- */
-/*-------------*/
-.post { text-align: left; margin: 0 40px 40px 0; float: left; }
-.post h2 { margin: 0 0 -5px 0; line-height: 32px; font-size: 20px; }
-.post p { margin: 10px 0 0 0; }
-.post .meta { font-size: 20px; color: #888; margin: 0 0 25px 0; }
-.post .meta a { color: #888; }
-.post .meta a:hover { color: #aaa; }
-.previous-posts { font-size: 16px; }
-#other-posts { text-align: left; font-size: 16px; }
-.read-post-link { display: block; margin: 10px 0 0 0; }
-
-/*-------------------------*/
-/* -- Frontpage Content -- */
-/*-------------------------*/
-#frontpage-content { clear: both; margin: 0 75px; width: 810px; overflow: hidden; }
-#frontpage-intro {  background-color: #f5f5f5; border: 2px #e5e5e5 solid; padding: 20px; text-align: left; }
-#frontpage-intro p { font-size: 18px; color: #888; margin: 0; line-height: 26px; }
-#frontpage-intro p span { color: #555; }
-#featured-projects h3 { color: #888; font-size: 20px; text-align: left; }
-#featured-projects { margin: 40px 0 0 0; }
-#featured-projects #featured-projects-bg { float: left;  background-color: #f5f5f5; border: 2px #e5e5e5 solid; padding-bottom: 6px; }
-#featured-projects #featured-projects-bg img { border: 2px #e5e5e5 solid; }
-#featured-projects .featured-project-image { float: left; margin: 6px 0 0 6px; }
-#featured-projects .featured-project-image:hover { opacity: 0.7; }
-
-
-/*-----------------*/
-/* -- Portfolio -- */
-/*-----------------*/
-#portfolio { clear: both; margin: 15px 0 0 0; width: 960px; overflow: hidden; }
-#portfolio h3 { text-align: left; font-size: 16px; margin: 0 0 2px 0; font-style: italic; }
-#portfolio .portfolio-item { float: left; margin: 0 0 40px 45px; }
-#portfolio .portfolio-item-first { float: left; margin: 0 0 40px 0; }
-#portfolio .portfolio-item { float: left; margin: 0 0 40px 54px; }
-#portfolio .portfolio-item img, #portfolio .portfolio-item-first img { border: 2px #e5e5e5 solid; }
-#portfolio .portfolio-item img:hover, #portfolio .portfolio-item-first img:hover { opacity: 0.7; }
-
-/*---------------*/
-/* -- Project -- */
-/*---------------*/
-#project { float: left; margin: 10px 0 60px 0; width: 100%; text-align: left; }
-#project #project-meta h3 { margin: 0 0 8px 0; }
-#project h4 { font-size: 20px; }
-#project .screenshot img { float: right; margin: 2px 0 0 2px; width: 400px; border: 2px #eee solid; }
-#project #project-content { float: left; margin: 6px 0 0 0; width: 450px; }
-#project #project-content .completion { margin-bottom: 25px; }
-.testimonial-author { font-weight: bold; margin: -8px 0 -3px 0; }
-.grey { color: #888; }
-
-/*---------------*/
-/* -- Sidebar -- */
-/*---------------*/
-#sidebar { font-size: 14px; }
-#sidebar h3 { font-size: 16px; margin: 20px 0 5px 0; }
-#sidebar .sponsors h3 { margin-top: 0; }
-#sidebar .sponsors { float: left; padding-bottom: 20px;  }
-#sidebar .sponsors a img { float: right; margin: 0 10px 10px -3px; }
-
-/*-----------------------*/
-/* -- Sidebar Contact -- */
-/*-----------------------*/
-#sidebar-contact { float: right; background: #f5f5f5; border:1px solid #e5e5e5; width: 220px; padding: 20px 20px 5px 20px; text-align: left; }
-#sidebar-contact h3 { margin: 0; padding: 0 0 20px 0; font-size: 20px; }
-#sidebar-contact h4 { margin: 0; padding: 0; font-size: 16px; }
-#sidebar-contact p { font-size: 14px; color: #888; margin: 0 0 15px 0; line-height: 18px; }
-
-/*--------------------*/
-/* -- Contact Page -- */
-/*--------------------*/
-#contact-page { float: left; font-size: 14px; width: 500px; margin: 0 0 70px 0; text-align: left; }
-#contact-page .title { margin: 0 0 15px 0; }
-#contact-page p { font-size: 14px; margin: 0 0 25px 2px; }
-#contact-page #contact-form { margin: 0 0 0 0; }
-#contact-page #contact-form fieldset { border: none; }
-#contact-page #contact-form input { border: 1px #dddddd solid; padding: 12px 10px 10px 10px; font-size: 12px; color: #555555; font-family: Arial, Helvetica, sans-serif; margin: 0 200px 15px 0; width: 275px; font-size: 14px; }
-#contact-page #contact-form textarea { border: 1px #dddddd solid; width: 515px; height: 249px; border: 1px #dddddd solid;  font-size: 12px; color: #555555; font-family: Arial, Helvetica, sans-serif; line-height: 24px; margin: 0 0 15px 0; padding: 20px 20px 0 15px; width: 450px; font-size: 14px; }
-#contact-page #contact-form .submit { background: url(../images/submit-button-blue.png) no-repeat; width: 109px; height: 38px; border: none; cursor: pointer; margin: 0 0 0 -5px; }
-#contact-page #contact-form .submit:hover { background: url(../images/submit-button-blue-hover.png) no-repeat; }
+/* -------------------- */
+#wrap { width: 1020px; margin: 0 auto; }
+body { font: 12px/20px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #555; background: url(../images/bg-pattern.png) repeat; }
+h1 { font-size: 38px; margin: 0 0 30px 0; }
+h2 { font-size: 16px; margin: 0 0 30px 0; }
+h3 { font-size: 18px; margin: 30px 0 15px 0; }
+h4 { font-size: 15px; margin: 20px 0 15px 0; }
+h5 { font-size: 14px; margin: 15px 0 5px 0; }
+h6 { font-size: 14px; margin: 10px 0 5px 0; }
+h8 { font-size: 28px; margin: 0 0 30px 0; }
+p { margin: 0 0 15px 0; }
+a { text-decoration: none; color: #337733; }
+a:hover { color: #f34607; }
+em { font-style: italic; }
+ul { margin: 0 0 15px 15px; list-style-type: circle; }
+ol { margin: 15px 0 15px 20px; list-style-type: decimal; }
+strong, b { font-weight: bold; }
+.sidebar-line, .content-line { border-bottom: 1px #ddd dotted; margin: 30px 0; }
 .hide { display: none; }
-#response { background-color: #f5f5f5; border: 1px #e5e5e5 solid; padding: 15px; color: #cc0000; }
 
-/*--------------*/
+/* ------------ */
+/* -- Layout -- */
+/* ------------ */
+#content { background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff; width: 490px; margin: 0 auto; padding: 100px 50px 30px 50px; overflow: hidden; min-height: 1400px; }
+
+/* ------------- */
+/* -- Sidebar -- */
+/* ------------- */
+#sidebar { float: left; width: 320px; background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff;  padding: 70px 40px 0 40px; height: 100%; overflow: hidden; min-height: 1460px; }
+#sidebar h1 { font-size: 32px; color: #555; margin: 0 0 8px 0; letter-spacing: -1px; }
+#sidebar h2 { font-size: 24px; color: #ccc; letter-spacing: -1px;  }
+#sidebar h3 { font-size: 18px; margin: 0 0 10px 0; }
+#sidebar a { color: #337733; }
+#sidebar a:hover { color: #f34607; }
+#status { font-size: 13px; }
+#sidebar #status span { font-style: italic; }
+
+/* --------- */
+/* -- Nav -- */
+/* --------- */
+#nav { margin: 30px 0 0 0; overflow: hidden; border-top: 1px #eee solid; border-bottom: 1px #eee solid; padding: 5px 0; list-style: none; }
+#nav li { float: left; font-size: 13px; padding: 0 0 0 0; text-decoration: none; color: #555; }
+#nav span { padding: 0 10px; }
+#nav li a { color: #337733; }
+#nav li a:hover { color: #f34607; }
+#nav li.current a { color: #555; text-decoration: underline; }
+
+/* --------- */
+/* -- Bio -- */
+/* --------- */
+#bio { margin: 30px 0 0 0; }
+.author-img { padding: 5px; display: block; margin-left: auto; margin-right: auto; width: 160px; }
+.bio-img { padding: 1px; background: #f5f5f5; border: 1px #eee solid; margin-left: auto; width: 280px; }
+.index-img { padding: 5px; background: #f5f5f5; border: 1px #eee solid; display: block; margin-left: auto; margin-right: auto; width: 485px}
+.adult-img { padding: 5px; background: #f5f5f5; border: 1px #eee solid; display: block; margin-left: auto; margin-right: auto; width: 250px}
+
+/* --------------- */
+/* -- Galleries -- */
+/* --------------- */
+.gallery-title { margin: 0 0 25px 0; }
+#gallery-nav { background: #f5f5f5; border: 1px #eee solid; margin: 0; padding: 14px 10px; margin: 0 0 0 0; }
+#gallery-nav a { color: #555; text-shadow: 0 1px 0 white; }
+#gallery-nav a:hover { color: #337733; }
+#gallery-nav .current { color: #337733; } 
+
+/* ------------------ */
+/* -- Testimonials -- */
+/* ------------------ */
+#testimonials .testimonial { padding: 0 0 15px 0; font-style: italic; }
+#testimonials .author-details { color: #333; margin: -12px 0 0 0; font-style: normal; }
+
+/* ------------- */
+/* -- Gallery -- */
+/* ------------- */
+#gallery { float: left; width: 590px; margin: 20px 0 0 0; }
+#gallery ul { list-style: none; margin: 0; }
+#gallery ul li { float: left; width: 235px; height: auto; background-color: #eee; margin: 0 20px 20px 0;  }
+#gallery ul li:hover { background: none; background-color: #eee; cursor: pointer; }
+#gallery ul li img { margin: 5px 0 0 5px; width: 225px; }
+#gallery ul li img:hover { opacity: 0.8; }
+
+/* -------------- */
+/* -- Articles -- */
+/* -------------- */
+#content .article-title { margin: 0 0 2px 0; padding: 0; }
+#content .article-meta { color: #888; margin: 0 0 15px 0; padding: 0; }
+.first-title { margin-top: 0; }
+
+
+/* ------------ */
 /* -- Footer -- */
-/*--------------*/
-#footer { clear: both; border-top: 5px #eee solid; margin: 20px 0 40px 0; color: #bbb; text-align: center; }
-#footer p { font-size: 18px; margin: 10px 0 0 0; }
+/* ------------ */
+#footer { border-top: 1px #ccc dotted; margin: 50px 0 0 0; padding: 10px 0 30px 0; }
+#footer p { font-size: 11px; color: #aaa; }

@@ -1,6 +1,4 @@
 
-/* Colors -- Orange: #f34607 */
-
 @import "reset.css";
 
 /* -------------------- */
@@ -28,7 +26,7 @@ strong, b { font-weight: bold; }
 /* ------------ */
 /* -- Layout -- */
 /* ------------ */
-#content { float: left; background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff; width: 490px; margin: 0 0 0 30px; padding: 100px 50px 30px 50px; overflow: hidden; min-height: 1400px; }
+#content { float: right; background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff; width: 490px; margin: 0 0 0 30px; padding: 100px 50px 30px 50px; overflow: hidden; min-height: 1400px; }
 
 /* ------------- */
 /* -- Sidebar -- */
@@ -46,7 +44,7 @@ strong, b { font-weight: bold; }
 /* -- Nav -- */
 /* --------- */
 #nav { margin: 30px 0 0 0; overflow: hidden; border-top: 1px #eee solid; border-bottom: 1px #eee solid; padding: 5px 0; list-style: none; }
-#nav li { float: left; font-size: 12px; padding: 0 0 0 0; text-decoration: none; color: #555; }
+#nav li { float: left; font-size: 13px; padding: 0 0 0 0; text-decoration: none; color: #555; }
 #nav span { padding: 0 10px; }
 #nav li a { color: #337733; }
 #nav li a:hover { color: #f34607; }
